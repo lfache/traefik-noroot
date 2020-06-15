@@ -19,7 +19,8 @@ when using `docker run`
 
 Check process Traefik :
 
-```docker exec -it traefik ps aux
+```
+docker exec -it traefik ps aux
 PID   USER     TIME  COMMAND
 1     traefik  0:00  traefik traefik --api.insecure=true
 11    traefik  0:00  ps aux
@@ -27,5 +28,7 @@ PID   USER     TIME  COMMAND
 
 Verify all works :
 
-```curl http://localhost
-404 page not found```
+```
+curl http://localhost
+404 page not found
+```
