@@ -4,8 +4,10 @@ Simple modify on Traefik image to allow launch as non-root user
 # Quickstart 
 You can clone this repo and build your Traefik image :
 
-`git clone https://github.com/lfache/traefik-noroot`
-`docker build -t traefik:local ./traefik-noroot/`
+```
+$ git clone https://github.com/lfache/traefik-noroot
+$ docker build -t traefik:local ./traefik-noroot/
+```
 
 For launching Traefik as non-root user, you need add :
 
