@@ -11,7 +11,7 @@ $ docker build -t traefik:local ./traefik-noroot/
 
 For launching Traefik as non-root user, you need add :
 
-`--sysctl net.ipv4.ip_unprivileged_port_start=0` 
+`--sysctl net.ipv4.ip_unprivileged_port_start=80` 
 
 when using `docker run`
 
